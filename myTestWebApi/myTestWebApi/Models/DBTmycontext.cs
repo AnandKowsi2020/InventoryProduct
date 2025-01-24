@@ -2,6 +2,7 @@
 
 namespace myTestWebApi.Models
 {
+    //test
     public class DBTmycontext : DbContext
     {
         public DBTmycontext(DbContextOptions<DBTmycontext> options) : base(options) { }
