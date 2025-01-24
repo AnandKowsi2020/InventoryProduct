@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Anand\\Project\\myTestWebApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{530677A7-F8CD-40B6-B619-C849865FB438}|myTestWebApi\\myTestWebApi.csproj|d:\\anand\\project\\mytestwebapi\\mytestwebapi\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{530677A7-F8CD-40B6-B619-C849865FB438}|myTestWebApi\\myTestWebApi.csproj|solutionrelative:mytestwebapi\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{530677A7-F8CD-40B6-B619-C849865FB438}|myTestWebApi\\myTestWebApi.csproj|d:\\anand\\project\\mytestwebapi\\mytestwebapi\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{530677A7-F8CD-40B6-B619-C849865FB438}|myTestWebApi\\myTestWebApi.csproj|solutionrelative:mytestwebapi\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{530677A7-F8CD-40B6-B619-C849865FB438}|myTestWebApi\\myTestWebApi.csproj|d:\\anand\\project\\mytestwebapi\\mytestwebapi\\models\\clsemployees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{530677A7-F8CD-40B6-B619-C849865FB438}|myTestWebApi\\myTestWebApi.csproj|solutionrelative:mytestwebapi\\models\\clsemployees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{530677A7-F8CD-40B6-B619-C849865FB438}|myTestWebApi\\myTestWebApi.csproj|d:\\anand\\project\\mytestwebapi\\mytestwebapi\\dto\\dtoemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{530677A7-F8CD-40B6-B619-C849865FB438}|myTestWebApi\\myTestWebApi.csproj|solutionrelative:mytestwebapi\\dto\\dtoemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{530677A7-F8CD-40B6-B619-C849865FB438}|myTestWebApi\\myTestWebApi.csproj|d:\\anand\\project\\mytestwebapi\\mytestwebapi\\models\\dbtmycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{530677A7-F8CD-40B6-B619-C849865FB438}|myTestWebApi\\myTestWebApi.csproj|solutionrelative:mytestwebapi\\models\\dbtmycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "clsEmployees.cs",
+              "DocumentMoniker": "D:\\Anand\\Project\\myTestWebApi\\myTestWebApi\\Models\\clsEmployees.cs",
+              "RelativeDocumentMoniker": "myTestWebApi\\Models\\clsEmployees.cs",
+              "ToolTip": "D:\\Anand\\Project\\myTestWebApi\\myTestWebApi\\Models\\clsEmployees.cs",
+              "RelativeToolTip": "myTestWebApi\\Models\\clsEmployees.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T08:30:21.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DtoEmployee.cs",
+              "DocumentMoniker": "D:\\Anand\\Project\\myTestWebApi\\myTestWebApi\\DTO\\DtoEmployee.cs",
+              "RelativeDocumentMoniker": "myTestWebApi\\DTO\\DtoEmployee.cs",
+              "ToolTip": "D:\\Anand\\Project\\myTestWebApi\\myTestWebApi\\DTO\\DtoEmployee.cs",
+              "RelativeToolTip": "myTestWebApi\\DTO\\DtoEmployee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T08:30:15.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Anand\\Project\\myTestWebApi\\myTestWebApi\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "myTestWebApi\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Anand\\Project\\myTestWebApi\\myTestWebApi\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "myTestWebApi\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T08:27:52.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DBTmycontext.cs",
+              "DocumentMoniker": "D:\\Anand\\Project\\myTestWebApi\\myTestWebApi\\Models\\DBTmycontext.cs",
+              "RelativeDocumentMoniker": "myTestWebApi\\Models\\DBTmycontext.cs",
+              "ToolTip": "D:\\Anand\\Project\\myTestWebApi\\myTestWebApi\\Models\\DBTmycontext.cs",
+              "RelativeToolTip": "myTestWebApi\\Models\\DBTmycontext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T08:13:27.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "D:\\Anand\\Project\\myTestWebApi\\myTestWebApi\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "myTestWebApi\\Controllers\\EmployeeController.cs",
+              "ToolTip": "D:\\Anand\\Project\\myTestWebApi\\myTestWebApi\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "myTestWebApi\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAAAFQAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T08:03:35.641Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

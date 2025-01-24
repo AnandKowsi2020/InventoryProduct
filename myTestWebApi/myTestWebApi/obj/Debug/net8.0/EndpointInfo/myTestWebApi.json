@@ -1,0 +1,286 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "myTestWebApi",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Employee": {
+      "get": {
+        "tags": [
+          "Employee"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/DtoEmployee"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/DtoEmployee"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/DtoEmployee"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Employee"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DtoEmployee"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DtoEmployee"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DtoEmployee"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Employee/getEmp": {
+      "get": {
+        "tags": [
+          "Employee"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/DtoEmployee"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/DtoEmployee"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/DtoEmployee"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Employee/{ID}/{fstrData}": {
+      "get": {
+        "tags": [
+          "Employee"
+        ],
+        "parameters": [
+          {
+            "name": "ID",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "fstrData",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Employee/{id}": {
+      "put": {
+        "tags": [
+          "Employee"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DtoEmployee"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DtoEmployee"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DtoEmployee"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Employee/{ID}": {
+      "delete": {
+        "tags": [
+          "Employee"
+        ],
+        "parameters": [
+          {
+            "name": "ID",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Home/getEmp": {
+      "get": {
+        "tags": [
+          "Home"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/": {
+      "get": {
+        "tags": [
+          "myTestWebApi"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/secure": {
+      "get": {
+        "tags": [
+          "myTestWebApi"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "DtoEmployee": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "phoneNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "salary": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}
